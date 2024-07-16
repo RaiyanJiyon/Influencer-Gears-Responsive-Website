@@ -162,14 +162,224 @@ body {
 }
 
 .horizontal__line-2 {
-    margin: 0 auto;
-    margin-top: 40px;
-    width: 1110px;
-    height: 1px;
-    background: linear-gradient(
-      135deg,
-      rgba(192, 204, 218, 0.1) 0%,
-      rgba(192, 204, 218, 0.6) 50.378%,
-      rgba(192, 204, 218, 0.1) 100%
-    );
-  }
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 1110px;
+  height: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.378%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+}
+
+/* popular collection */
+.collection__title {
+  width: 262px;
+  height: 70px;
+  color: var(--primary-color);
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.popular__collection {
+  max-width: 1047px;
+  height: 1662px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.collection__box {
+  width: 329px;
+  height: 476px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.collection__box img {
+  width: 100%; /* Make image take full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px;
+  margin-bottom: 15px; /* Add margin below the image */
+}
+
+.box__title {
+  color: rgb(24, 25, 31);
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.box__price {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.box_rate {
+  display: flex; /* Display stars and value in a row */
+  align-items: center;
+  margin-bottom: 10px; /* Add margin below the rating */
+}
+
+.box_rate i {
+  margin-right: 2px;
+  color: rgb(251, 130, 0);
+}
+
+.box_rate #value {
+  color: rgb(94, 99, 102);
+  font-size: 0.87rem;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  margin-left: 2px;
+}
+.box__description {
+  color: rgb(120, 120, 133);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: 1.8%;
+  text-align: left;
+}
+
+/* featured product */
+.featured__product {
+  width: 1110px;
+  height: 270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured__product-image {
+  width: 404px;
+  height: 270px;
+  border-radius: 7px;
+}
+
+.featured__product-image img {
+  width: 100%;
+  height: auto;
+}
+
+.featured__product-content {
+  width: 610px;
+  height: auto;
+  margin-top: 15px;
+}
+
+.feature__title {
+  width: 610px;
+  height: 60px;
+  color: rgb(10, 8, 38);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.feature__description {
+  width: 501px;
+  height: 88px;
+  color: rgb(108, 108, 108);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 12px;
+  margin-top: 50px;
+}
+
+.feature__btn {
+  width: 155px;
+  height: 44px;
+  padding: 10px 24px;
+  background: rgb(224, 44, 109);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 0px; /* Adjust margin for spacing */
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  border: 2px solid greenyellow;
+  margin-top: 80px;
+background-color: #0A0826;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer__content {
+  width: auto;
+  height: 139px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.footer__content--text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__title {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+.footer-description {
+  color: rgb(217, 219, 225);
+  font-size: 0.87rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.footer__paragraph {
+  color: rgb(217, 219, 225);
+  font-size: 0.87rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.footer__logo {
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+}
