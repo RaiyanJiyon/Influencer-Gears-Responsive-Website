@@ -53,6 +53,8 @@
 }
 
 .banner__content-title {
+  width: 100%;
+  height: auto;
   font-size: 2rem;
   line-height: 1.25;
   margin-bottom: 10px;
@@ -63,6 +65,7 @@
 
 .banner__content-description {
   width: 100%;
+  height: auto;
   font-size: 0.875rem;
   line-height: 1.25;
   text-align: center;
