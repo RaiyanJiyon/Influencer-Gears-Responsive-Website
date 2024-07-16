@@ -1,24 +1,61 @@
-.footer__content {
+/* featured product */
+.featured__product {
   width: 80%;
+  height: auto;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.footer__title {
+.featured__product-image {
+  width: 100%;
+  height: auto;
+  margin-top: 35px;
+}
+
+.featured__product-content {
+  width: 100%;
+  height: auto;
+  margin-top: 45px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature__title {
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  line-height: 38px;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.feature__description {
+  width: 100%;
+  height: auto;
+  font-size: 0.8rem;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.feature__btn {
+  width: 155px;
+  height: 44px;
+  padding: 10px 24px;
+  background: rgb(224, 44, 109);
   color: rgb(255, 255, 255);
-  font-size: 1.3rem;
-  line-height: 32px;
-}
-
-.footer-description {
-  font-size: 0.8rem;
-  line-height: 22px;
-}
-
-.footer__paragraph {
-  font-size: 0.8rem;
-}
-
-.footer__logo {
-  gap: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 40px;
+  border: none;
+  cursor: pointer;
 }
 
 /* popular collection */
@@ -69,3 +106,28 @@
   line-height: 133%;
   letter-spacing: 1.8%;
 }
+
+/* footer element */
+.footer__content {
+  width: 80%;
+}
+
+.footer__title {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  line-height: 32px;
+}
+
+.footer-description {
+  font-size: 0.8rem;
+  line-height: 22px;
+}
+
+.footer__paragraph {
+  font-size: 0.8rem;
+}
+
+.footer__logo {
+  gap: 10px;
+}
+
