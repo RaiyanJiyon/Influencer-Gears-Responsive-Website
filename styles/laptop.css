@@ -1,0 +1,48 @@
+/* popular collection */
+.collection__title {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .popular__collection {
+    width: 70%;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-content: center;
+  }
+  
+  .collection__box {
+    width: 100%;
+    height: auto;
+  }
+  
+  .collection__box img {
+    width: 100%; 
+    height: auto;
+  }
+  
+  .box__title {
+    font-size: 1.75rem;
+    line-height: 35px;
+  }
+  
+  .box__price {
+    font-size: 1.55rem;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .box_rate #value {
+    font-size: 0.77rem;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+  }
+  
+  .box__description {
+    font-size: 0.77rem;
+    line-height: 133%;
+    letter-spacing: 1.8%;
+  }
