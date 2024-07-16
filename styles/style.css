@@ -132,7 +132,7 @@ body {
   height: auto;
 }
 
-.horizontal__line {
+.horizontal__line-1 {
   margin: 0 auto;
   margin-top: 69px;
   width: 1110px;
@@ -160,3 +160,16 @@ body {
   object-fit: contain;
   margin: 0 10px;
 }
+
+.horizontal__line-2 {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1110px;
+    height: 1px;
+    background: linear-gradient(
+      135deg,
+      rgba(192, 204, 218, 0.1) 0%,
+      rgba(192, 204, 218, 0.6) 50.378%,
+      rgba(192, 204, 218, 0.1) 100%
+    );
+  }
