@@ -27,7 +27,6 @@ body {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  /* gap: 494px; */
   padding: 10px 10px;
   margin-top: 50px;
   cursor: pointer;
@@ -35,7 +34,7 @@ body {
 
 .navbar__brand {
   color: var(--primary-color);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0px;
@@ -55,8 +54,78 @@ body {
 .navbar-item a {
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 24px;
   text-align: left;
+}
+
+.banner {
+  max-width: 1188px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.banner__content {
+  width: 582px;
+  height: 270px;
+  margin-top: 120px;
+}
+
+.banner__content-title {
+  width: 582px;
+  height: 133px;
+  color: var(--primary-color);
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.banner__content-deescription {
+  width: 505px;
+  height: 60.9px;
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.btn__preebook {
+  width: 196px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 41px;
+  background: rgb(224, 44, 109);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.banner__image {
+  width: 440px;
+  height: 414px;
+  background-image: url(../images/Circle\ design.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner__image img {
+  width: 100%;
+  height: auto;
 }
