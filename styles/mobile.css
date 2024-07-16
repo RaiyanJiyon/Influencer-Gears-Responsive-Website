@@ -1,0 +1,80 @@
+/* Mobile Styles */
+
+.navbar, .navbar__lists, .banner {
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar, .navbar__lists {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    padding: 10px;
+    gap: 15px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.navbar__brand {
+    font-size: 1.25rem;
+}
+
+.navbar__lists {
+    gap: 10px;
+}
+
+.navbar-item a {
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.banner {
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0;
+    flex-direction: column-reverse;
+}
+
+.banner__content {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.banner__content-title {
+    font-size: 2rem;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    width: 100%;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.banner__content-description {
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.btn__preebook {
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.banner__image {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}

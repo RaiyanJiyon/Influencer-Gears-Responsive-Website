@@ -64,16 +64,17 @@ body {
   max-width: 1188px;
   height: auto;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  /* border: 2px solid rebeccapurple; */
 }
 
 .banner__content {
   width: 582px;
   height: 270px;
-  margin-top: 120px;
+  margin-top: 74px;
 }
 
 .banner__content-title {
@@ -87,7 +88,7 @@ body {
   margin-bottom: 16px;
 }
 
-.banner__content-deescription {
+.banner__content-description {
   width: 505px;
   height: 60.9px;
   color: var(--primary-color);
