@@ -197,6 +197,7 @@ text-align: left;
 /* popular collection */
 .collection__title {
   width: 90%;
+  height: auto;
   text-align: center;
   margin: 0 auto;
 }
