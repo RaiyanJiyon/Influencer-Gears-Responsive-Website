@@ -25,6 +25,11 @@ body {
   display: none;
 }
 
+#display-hide {
+    display: none;
+  }
+  
+
 /* header elements starts */
 .navbar {
   display: flex;
@@ -262,7 +267,7 @@ body {
 .box__description {
   color: rgb(120, 120, 133);
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 0.87rem;
   line-height: 143%;
   letter-spacing: 1.8%;
   text-align: left;
