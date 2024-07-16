@@ -1,0 +1,23 @@
+.footer__content {
+    width: 80%;
+}
+
+.footer__title {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    line-height: 32px;
+}
+
+.footer-description {
+    font-size: 0.8rem;
+    line-height: 22px;
+  }
+  
+  .footer__paragraph {
+    font-size: 0.8rem;
+  }
+  
+  .footer__logo {
+    gap: 10px;
+  }
+  
