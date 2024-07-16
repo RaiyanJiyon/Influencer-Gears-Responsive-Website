@@ -2,7 +2,8 @@
 
 .navbar,
 .navbar__lists,
-.banner {
+.banner,
+.footer__content {
   flex-direction: column;
   width: 100%;
   overflow: hidden;
@@ -103,4 +104,29 @@
   width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+.footer__content {
+  width: 90%;
+}
+
+.footer__title {
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+.footer-description {
+  font-size: 0.75rem;
+  line-height: 24px;
+  text-align: left;
+}
+
+.footer__paragraph {
+font-size: 0.75rem;
+line-height: 24px;
+text-align: left;
+}
+
+.footer__logo {
+  gap: 8px;
 }

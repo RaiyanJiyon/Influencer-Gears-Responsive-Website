@@ -20,6 +20,11 @@ body {
   --primary-color: rgb(58, 58, 58);
 }
 
+/* shared styles */
+.display-hide {
+  display: none;
+}
+
 /* header elements starts */
 .navbar {
   display: flex;
@@ -328,6 +333,7 @@ body {
   cursor: pointer;
 }
 
+/* footer elements starts */
 footer {
   width: 100%;
   height: auto;
@@ -376,6 +382,10 @@ footer {
 }
 
 .footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
   text-align: center;
   color: white;
   margin-top: 5px;
