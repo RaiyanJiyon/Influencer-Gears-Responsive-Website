@@ -1,23 +1,71 @@
 .footer__content {
-    width: 80%;
+  width: 80%;
 }
 
 .footer__title {
-    color: rgb(255, 255, 255);
-    font-size: 1.3rem;
-    line-height: 32px;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  line-height: 32px;
 }
 
 .footer-description {
-    font-size: 0.8rem;
-    line-height: 22px;
-  }
-  
-  .footer__paragraph {
-    font-size: 0.8rem;
-  }
-  
-  .footer__logo {
-    gap: 10px;
-  }
-  
+  font-size: 0.8rem;
+  line-height: 22px;
+}
+
+.footer__paragraph {
+  font-size: 0.8rem;
+}
+
+.footer__logo {
+  gap: 10px;
+}
+
+/* popular collection */
+.collection__title {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.popular__collection {
+  width: 90%;
+  height: auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  justify-content: center;
+}
+
+.collection__box {
+  width: 100%;
+  height: auto;
+}
+
+.collection__box img {
+  width: 100%; 
+  height: auto;
+}
+
+.box__title {
+  font-size: 1.75rem;
+  line-height: 35px;
+}
+
+.box__price {
+  font-size: 1.55rem;
+  line-height: 150%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.box_rate #value {
+  font-size: 0.77rem;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.box__description {
+  font-size: 0.77rem;
+  line-height: 133%;
+  letter-spacing: 1.8%;
+}
